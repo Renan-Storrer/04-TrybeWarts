@@ -29,3 +29,9 @@ main , #evaluation-form {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+#familia {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
