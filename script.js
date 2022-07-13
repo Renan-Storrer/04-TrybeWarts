@@ -14,14 +14,11 @@ function login() {
 
 button.onclick = login;
 
-
-function habilitar(){
-  if(checkbox.checked === true){
+function habilitar() {
+  if (checkbox.checked === true) {
     enviar.disabled = false;
-  }else{
+  } else {
     enviar.disabled = true;
   }
 }
 checkbox.onclick = habilitar;
-
-
