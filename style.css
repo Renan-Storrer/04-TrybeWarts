@@ -6,8 +6,22 @@
     display: flex;
     background-color: rgb(50, 167, 145);
     height: 60px;
+    justify-content: space-between;
 }
 
 .trybewarts-login {
     display: flex;
+}
+
+#trybewarts-header-title {
+    color: white;
+}
+
+main, #evaluation-form {
+    display: flex;
+}
+
+#evaluation-form {
+    width: 675px;
+    flex-direction: column;
 }
