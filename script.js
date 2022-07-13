@@ -1,4 +1,6 @@
 const button = document.getElementById('entrar');
+const enviar = document.getElementById('submit-btn');
+const checkbox = document.getElementById('agreement');
 
 function login() {
   const email = document.getElementById('email').value;
@@ -11,3 +13,15 @@ function login() {
 }
 
 button.onclick = login;
+
+
+function habilitar(){
+  if(checkbox.checked === true){
+    enviar.disabled = false;
+  }else{
+    enviar.disabled = true;
+  }
+}
+checkbox.onclick = habilitar;
+
+
