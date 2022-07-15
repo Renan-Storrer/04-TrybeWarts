@@ -30,3 +30,15 @@ const textArea = document.querySelector('#textarea');
 textArea.addEventListener('keyup', () => {
   counter.innerHTML = 500 - textArea.value.length;
 });
+
+// const buttonSubmit = document.querySelector('#submit-btn');
+// buttonSubmit.addEventListener('click' , () => {
+//   console.log(localStorage);
+// })
+
+// localStorage.removeItem('nome')
+// localStorage.getItem('Nome', 'Mychel')
+// // console.log(localStorage.getItem('Nome'));
+// console.log(location);
+
+// console.log(localStorage);
