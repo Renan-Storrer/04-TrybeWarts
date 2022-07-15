@@ -22,3 +22,11 @@ function habilitar() {
   }
 }
 checkbox.onclick = habilitar;
+
+const counter = document.querySelector('#counter');
+// console.log(counter);
+
+const textArea = document.querySelector('#textarea');
+textArea.addEventListener('keyup', () => {
+  counter.innerHTML = 500 - textArea.value.length;
+});
