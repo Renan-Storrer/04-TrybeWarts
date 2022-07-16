@@ -19,6 +19,13 @@ body {
   cursor: default;
 }
 
+#titulo {
+  margin: 0 auto;
+  margin-bottom: 25px;
+  font-size: 40px;
+  font-family: monospace;
+}
+
 #email {
   height: 30px;
   border-color: lime;
@@ -63,26 +70,33 @@ main , #evaluation-form {
 }
 
 #evaluation-form {
+  margin-top: 25px;
   width: 675px;
   flex-direction: column;
 }
 
+#casa {
+  margin-bottom: 15px;
+}
+
 #input-name {
-  width: 200px;
+  margin-right: 20px;
+  width: 250px;
   height: 35px;
   border-radius: 10px;
   border: 2px solid rgb(239, 239, 239);
 }
 
 #input-lastname {
-  width: 200px;
+  width: 250px;
   height: 35px;
   border-radius: 10px;
   border: 2px solid rgb(239, 239, 239);
 }
 
 #input-email {
-  width: 200px;
+  margin-right: 20px;
+  width: 250px;
   height: 35px;
   border-radius: 10px;
   border: 2px solid rgb(239, 239, 239);
@@ -90,10 +104,20 @@ main , #evaluation-form {
 
 #house {
   background-color: white;
-  width: 170px;
+  width: 220px;
   height: 35px;
   border-radius: 10px;
   border: 2px solid rgb(239, 239, 239);
+}
+
+#primeiraSecao {
+  margin-left: 70px;
+}
+
+#segundaSecao {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
 }
 
 #trybewarts-forms-logo {
@@ -101,7 +125,57 @@ main , #evaluation-form {
 }
 
 #familia {
+  margin-top: 15px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin-right: 20px;
+}
+
+#familia div {
+  margin-top: 10px;
+}
+
+#conteudo {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#avaliacao input {
+  margin-left: 10px;
+}
+
+#content div input {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+#conteudo label {
+  margin-left: 20px;
+}
+
+#avaliacao {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+#avaliacao label {
+  margin-top: 15px;
+}
+
+#comentario {
+  margin-left: 70px;
+  margin-bottom: 15px;
+}
+
+#counter {
+  font-family: monospace;
+  font-size: 30px;
+  margin-top: -35px;
+  margin-left: 100%;
+  color: rgb(139, 139, 139);
 }
