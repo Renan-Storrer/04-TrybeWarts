@@ -127,7 +127,7 @@ body {
   display: flex;
   justify-content: center;
   align-self: center;
-  height: 400px;
+  height: 500px;
 }
 
 #familia {
@@ -192,9 +192,26 @@ body {
 }
 
 #submit-btn {
+  font-size: 25px;
+  height: 40px;
   cursor: pointer;
-  background-color: rgb(78, 44, 131);
+  background-color: rgb(13, 202, 240);
   color: white;
   margin-left: 70px;
   margin-bottom: 25px;
+}
+
+#submit-btn:hover {
+  border: 3px solid rgb(145, 218, 232);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  background-color: rgb(60, 64, 74);
+  height: 50px;
 }
